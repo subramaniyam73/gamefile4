@@ -2,6 +2,7 @@ let assignedValues=[],gameStatus=true,i,cc,bestScores=[],levelValue,levelValue2,
 let gradientValues=["3d004d","660080","8f00b3","cc00ff","e580ff","b3daff","80c1ff","4da9ff","0077e6","005cb3","004280","004d00","006600","009900","00b300","00cc00","00ff00","80ff80","b3ffb3","b3d1ff","66a3ff","3385ff","0066ff","0047b3","003380","800000","b30000","e60000","ff6666"];
 let gradientValues2=["ff6666","ff4d4d","ff3333","cc0000","b30000","990000","800000","4d94ff","3385ff","1a75ff","0066ff","0052cc","003d99","80ff80","66ff66","00cc00","00b300","009900","008000"];
 gradientCount=0;
+alert("hacked");
 for(let w=0;w<5;w++)
 {
   localStorage.setItem(bestScores[w],+(0));
