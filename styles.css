@@ -96,7 +96,7 @@ body{
   border: solid 2px white ;
   padding:10px;
   background-color: #000000;
-  color: blue;
+  color: red;
   font-size: 30px;
   font-family: 'Press Start 2P', cursive;
   line-height:150%;
@@ -213,19 +213,33 @@ body{
   .num{
     font-size:5rem;
     width:15%;
-    height:250px;
+    height:200px;
     
   }
     #ng{
-      font-size:3rem;
+      font-size:2.5rem;
       width:30%;
-      padding:5%;
+      padding:10px;
   }
   .styleButtons{
-    font-size:3rem;
+    font-size:2.5rem;
     width:30%;
-    padding:5%;
+    padding:10px;
     
   }
+  #detail{
+    margin-top:50px;
+    font-size:3rem;
+    color:#3282b8;
+  }
+  .lookControl{
+    font-size:3rem;
+    height:852px;
+  }
+  .container{
+    height:852px;
+  }
+    
+  
 }
 
