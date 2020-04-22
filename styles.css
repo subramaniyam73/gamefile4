@@ -208,18 +208,17 @@ body{
   }
   .posDiv{
     width:100%;
+    font-size:400%;
   }
   
   .num{
     width:15%;
-    font-size:400%;
+    
   }
     #ng{
-      font-size:400%;
       width:25%;
   }
   .styleButtons{
-    font-size:400%;
     width:20%;
   }
 }
