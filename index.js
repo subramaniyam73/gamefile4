@@ -42,6 +42,12 @@ document.querySelector("#ng").addEventListener("click",function(){
 
   if(count===(40+(levelValue-1)*20+1))
   {
+    for(let lll=1;lll<=20;lll++)
+    {
+      document.querySelector("#b"+lll).removeEventListener("click",function(){
+      audioObject2.play();
+      audioObject3.play();
+      }
 
     document.querySelector("#l1").style.opacity="1.0";
     document.querySelector("#l2").style.opacity="1.0";
