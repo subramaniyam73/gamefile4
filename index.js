@@ -54,7 +54,7 @@ document.querySelector("#ng").addEventListener("click",function(){
     }
     timerObject.reset();
     document.querySelector(".lookControl").innerHTML="<br>choose the difficulty";
-    if(screen.width>=320px&&screen.width<=1024px)
+    if(screen.width>=320&&screen.width<=1024)
     {
       document.querySelector(".lookControl").style.width="100%";
       document.querySelector(".lookControl").style.height="852px";
@@ -132,7 +132,7 @@ for(let j=1;j<=20;j++)
       else if(cc==(40+(levelValue-1)*20))
       {
         timerObject.stop();
-        if(screen.width>=320px&&screen.width<=1024px)
+        if(screen.width>=320&&screen.width<=1024)
          {
             document.querySelector(".lookControl").style.width="100%";
             document.querySelector(".lookControl").style.height="852px";
