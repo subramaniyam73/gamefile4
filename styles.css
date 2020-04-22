@@ -57,7 +57,7 @@
 }
 body{
   text-align: center;
-  /*background-color:#323232;*/
+  background-color:#323232;
 }
 .timerr{
   text-align: center;
@@ -96,7 +96,7 @@ body{
   border: solid 2px white ;
   padding:10px;
   background-color: #000000;
-  color: red;
+  color:#3282b8;
   font-size: 30px;
   font-family: 'Press Start 2P', cursive;
   line-height:150%;
