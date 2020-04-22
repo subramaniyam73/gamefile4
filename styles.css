@@ -190,21 +190,7 @@ body{
 
 }
 @media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
   body{
     background-color: white;
-  }
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  .timerr{
-    width: 100%;
-
-  }
-  .details{
-    width: 100%;
   }
 }
