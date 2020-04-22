@@ -206,10 +206,14 @@ body{
   .details{
     font-size:300%;
   }
+  .posDiv{
+    width:100%;
+  }
+  
   .num{
+    width:20%;
     height:70px;
-    width:70px;
-    font-size:150%;
+    font-size:200%;
   }
     
 }
