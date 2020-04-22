@@ -4,7 +4,7 @@
 
 
 
-
+@media (min-width:1025px){
 .tapped{
   opacity:0;
 }
@@ -189,7 +189,8 @@ body{
   color: black;
 
 }
-@media only screen and (max-width: 768px) {
+}
+@media (min-width:320px) {
 
   body{
     background-color: white;
