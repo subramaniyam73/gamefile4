@@ -218,13 +218,15 @@ body{
   }
     #ng{
       font-size:2.5rem;
-      width:30%;
+      width:45%;
       padding:10px;
+      height:120px;
   }
   .styleButtons{
     font-size:2.5rem;
-    width:30%;
+    width:40%;
     padding:10px;
+    height:100px;
     
   }
   #detail{
@@ -233,11 +235,13 @@ body{
     color:#3282b8;
   }
   .lookControl{
-    font-size:3rem;
+    font-size:7rem;
     height:852px;
+    margin-bottom:150px;
   }
   .container{
     height:852px;
+    margin-bottom:150px;
   }
     
   
