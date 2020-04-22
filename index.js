@@ -47,7 +47,9 @@ document.querySelector("#ng").addEventListener("click",function(){
       document.querySelector("#b"+lll).removeEventListener("click",function(){
       audioObject2.play();
       audioObject3.play();
-      }
+      });
+    }
+                                                                                                               
 
     document.querySelector("#l1").style.opacity="1.0";
     document.querySelector("#l2").style.opacity="1.0";
