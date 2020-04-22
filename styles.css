@@ -196,5 +196,21 @@ body{
   [class*="col-"]{
     width:100%;
 }
+  
+  .timerr{
+    font-size:300%;
+  }
+  .leaderboard{
+    font-size:300%;
+  }
+  .details{
+    font-size:300%;
+  }
+  .num{
+    height:70px;
+    width:70px;
+    font-size:150%;
+  }
+    
 }
 
