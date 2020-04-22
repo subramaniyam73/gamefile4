@@ -326,6 +326,8 @@ for(let j=1;j<=20;j++)
     }
     else{
       document.querySelector("#b"+j).classList.add("cover");
+      audioObject2.pause();
+      audioObject3.pause();
     }
 
     count++;
