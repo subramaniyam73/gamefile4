@@ -53,9 +53,16 @@ document.querySelector("#ng").addEventListener("click",function(){
     }
     timerObject.reset();
   document.querySelector(".lookControl").innerHTML="<br>choose the difficulty";
+    if(window.screen.width>=320px&&window.screen.width<=1024px)
+    {
+      document.querySelector(".lookControl").style.width="100%";
+      document.querySelector(".lookControl").style.height="852px";
+    }
+    else{
   setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
 
   setTimeout(function(){document.querySelector(".lookControl").style.width="582px";},0);
+    }
   av();
   ae();
 }
@@ -125,6 +132,17 @@ for(let j=1;j<=20;j++)
       else if(cc==(40+(levelValue-1)*20))
       {
         timerObject.stop();
+        if(window.screen.width>=320px&&window.screen.width<=1024px)
+         {
+            document.querySelector(".lookControl").style.width="100%";
+            document.querySelector(".lookControl").style.height="852px";
+          }
+        else{
+          setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
+
+           setTimeout(function(){document.querySelector(".lookControl").style.width="582px";},0);
+           }
+          document.querySelector(".lookControl").innerHTML="<br>press new game to restart";
         if(localStorage.getItem(levelValue+"bt1")==null)
           {
           localStorage.setItem(levelValue+"bt1",document.querySelector(".timerSpan").textContent);
