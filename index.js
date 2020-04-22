@@ -45,7 +45,6 @@ document.querySelector("#ng").addEventListener("click",function(){
     for(let lll=1;lll<=20;lll++)
     {
       document.querySelector("#b"+lll).removeEventListener("click",function(){
-      audioObject2.play();
       audioObject3.play();
       });
     }
