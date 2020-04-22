@@ -53,16 +53,15 @@ document.querySelector("#ng").addEventListener("click",function(){
       document.querySelector("#el"+(nnn+1)).textContent="";
     }
     timerObject.reset();
-  document.querySelector(".lookControl").innerHTML="<br>choose the difficulty";
-    if(window.screen.width>=320px&&window.screen.width<=1024px)
+    document.querySelector(".lookControl").innerHTML="<br>choose the difficulty";
+    if(screen.width>=320px&&screen.width<=1024px)
     {
       document.querySelector(".lookControl").style.width="100%";
       document.querySelector(".lookControl").style.height="852px";
     }
     else{
-  setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
-
-  setTimeout(function(){document.querySelector(".lookControl").style.width="582px";},0);
+        setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
+        setTimeout(function(){document.querySelector(".lookControl").style.width="582px";},0);
     }
   av();
   ae();
@@ -133,13 +132,13 @@ for(let j=1;j<=20;j++)
       else if(cc==(40+(levelValue-1)*20))
       {
         timerObject.stop();
-        if(window.screen.width>=320px&&window.screen.width<=1024px)
+        if(screen.width>=320px&&screen.width<=1024px)
          {
             document.querySelector(".lookControl").style.width="100%";
             document.querySelector(".lookControl").style.height="852px";
           }
         else{
-          setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
+           setTimeout(function(){document.querySelector(".lookControl").style.height="470px";},0);
 
            setTimeout(function(){document.querySelector(".lookControl").style.width="582px";},0);
            }
