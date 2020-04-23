@@ -44,9 +44,9 @@ document.querySelector("#ng").addEventListener("click",function(){
   {
     for(let lll=1;lll<=20;lll++)
     {
-      document.querySelector("#b"+lll).removeEventListener("click",function(){
-      audioObject3.play();
-      });
+      var old_element = document.querySelector("#b"+lll);
+      var new_element = old_element.cloneNode(true);
+      old_element.parentNode.replaceChild(new_element, old_element);
     }
                                                                                                                
 
